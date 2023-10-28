@@ -1,0 +1,68 @@
+
+{
+  "resourceSpans": [
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "browser"
+            }
+          },
+          {
+            "key": "telemetry.sdk.language",
+            "value": {
+              "stringValue": "webjs"
+            }
+          },
+          {
+            "key": "telemetry.sdk.name",
+            "value": {
+              "stringValue": "opentelemetry"
+            }
+          },
+          {
+            "key": "telemetry.sdk.version",
+            "value": {
+              "stringValue": "1.17.1"
+            }
+          }
+        ],
+        "droppedAttributesCount": 0
+      },
+      "scopeSpans": [
+        {
+          "scope": {
+            "name": "test"
+          },
+          "spans": [
+            {
+              "traceId": "c20ee79e5923f03f5a69b5c04ed92029",
+              "spanId": "519a4d13831cc087",
+              "name": "testing tracer",
+              "kind": 1,
+              "startTimeUnixNano": {
+                "low": -137410624,
+                "high": 395407643
+              },
+              "endTimeUnixNano": {
+                "low": -137110624,
+                "high": 395407643
+              },
+              "attributes": [],
+              "droppedAttributesCount": 0,
+              "events": [],
+              "droppedEventsCount": 0,
+              "status": {
+                "code": 0
+              },
+              "links": [],
+              "droppedLinksCount": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+	"resourceSpans": [
+		{
+			"resource": {
+				"attributes": [
+					{
+						"key": "service.name",
+						"value": {
+							"stringValue": "unknown_service"
+						}
+					},
+					{
+						"key": "telemetry.sdk.language",
+						"value": {
+							"stringValue": "webjs"
+						}
+					},
+					{
+						"key": "telemetry.sdk.name",
+						"value": {
+							"stringValue": "opentelemetry"
+						}
+					},
+					{
+						"key": "telemetry.sdk.version",
+						"value": {
+							"stringValue": "1.17.1"
+						}
+					}
+				],
+				"droppedAttributesCount": 0
+			},
+			"scopeSpans": [
+				{
+					"scope": {
+						"name": "foo"
+					},
+					"spans": [
+						{
+							"attributes": [],
+							"droppedAttributesCount": 0,
+							"droppedEventsCount": 0,
+							"droppedLinksCount": 0,
+							"endTimeUnixNano": {
+								"high": 395464797,
+								"low": -849246208
+							},
+							"events": [],
+							"kind": 1,
+							"links": [],
+							"name": "bar",
+							"spanId": "16d6abafc396bf2a",
+							"startTimeUnixNano": {
+								"high": 395464797,
+								"low": -852246208
+							},
+							"status": {
+								"code": 0
+							},
+							"traceId": "e64e3adfab68aa5438e4091abbe77191"
+						}
+					]
+				}
+			]
+		}
+	]
+}

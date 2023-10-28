@@ -1,0 +1,5 @@
+HONEYCOMB_URL=https://api.honeycomb.io/v1/traces
+#INPUT_FILE=./angry-otel.json
+INPUT_FILE=./getting-started.json
+
+curl -X POST -H "X-Honeycomb-Team: $HONEYCOMB_API_KEY" -H "Content-Type: application/json" $HONEYCOMB_URL -d @${INPUT_FILE}
